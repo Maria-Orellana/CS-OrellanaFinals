@@ -28,6 +28,16 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.parallaxEventos{
+	background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/bb54cad314a2d6f14c7d1b63b8269470-scaled.jpg);
+	height: 350px;
+	width: 100vw;
+	opacity: 0.7;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 .tituloPag{
 	padding-top: 7rem;
 	font-size: 7rem;
