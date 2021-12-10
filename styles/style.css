@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	top: 0;
+}
+@media screen and (max-width: 768px){
+	.desktopOnly{
+	display: none;
+	}
+	#dropdownMenuButton1{
+	background-color: #ffb4a2;
+	color: #6d6875;
+	}
+	.dropdown-menu .dropdown-item{
+	background-color: #ffb4a2;
+	color: #6d6875;
+	}
+}
+.colorFondo{
+	background-color: #f8edeb;
+}
+.parallaxInicio{
+	background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
+	height: 350px;
+	width: 100vw;
+	opacity: 0.7;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tituloPag{
+	padding-top: 7rem;
+	font-size: 7rem;
+	opacity: 0.7;
+	color: #d8e2dc;
+}
+#header div a{
+	color: #6d6875;
+	transition-property: font-size;
+	transition-timing-function: ease-in-out;
+	transition-duration: 480ms;
+}
+#header div a:hover {
+	font-size: 1.6rem;
+	color: #b5838d;
+}
+.enlacesInternos a{
+	color: #b5838d;
+	text-decoration: none;
+	font-weight: bold;
+}
+.enlacesInternos a:hover{
+	color: #ffb4a2;
+}
+/*Edicion de imágenes en index*/
+.imagenPeq{
+	width: 10rem;
+	height: auto;
+	padding-left: 20px;
+}
+.imgEventos{
+	width: 57%;
+	height: auto;
+}
+.imgProd{
+	 width: 70%;
+	 height: auto;
+}
+/*Estilo de footer*/
+.edicionFooter {
+	background-color: #ffb4a2;
+	text-decoration: none;
+	color: #6d6875;
+}
+.edicionFooter ul li {
+	list-style: none;
+	text-decoration: none;
+}
+.edicionFooter img{
+	height: 18px;
+	width: 18px;
+}
+.edicionFooter a {
+	color: #b5838d;
+	text-decoration: none;
+}
+.edicionFooter a:hover {
+	color: #ffcdb2;
+	text-decoration: none;
+}
+.edicionFooter .TransFooter input[type=text] {
+  	width: 100px;
+  	transition: width .35s ease-in-out;
+}
+.edicionFooter .TransFooter input[type=text]:focus {
+	width: 250px;
+}
