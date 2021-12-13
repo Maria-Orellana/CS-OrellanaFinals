@@ -14,33 +14,41 @@
 	background-color: #ffb4a2;
 	color: #6d6875;
 	}
+	.parallaxInicio{
+	background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
+	height: 150px;
+	width: 100vw;
+	opacity: 0.7;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	}
 }
 .colorFondo{
 	background-color: #f8edeb;
 }
 .parallaxInicio{
 	background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
-	height: 350px;
+	height: 250px;
 	width: 100vw;
 	opacity: 0.7;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 }
 .parallaxEventos{
 	background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/bb54cad314a2d6f14c7d1b63b8269470-scaled.jpg);
-	height: 350px;
+	height: 250px;
 	width: 100vw;
 	opacity: 0.7;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
 }
 .tituloPag{
-	padding-top: 7rem;
-	font-size: 7rem;
 	opacity: 0.7;
 	color: #d8e2dc;
 }
