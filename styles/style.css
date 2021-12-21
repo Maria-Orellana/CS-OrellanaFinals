@@ -1,115 +1,113 @@
-*{
-	margin: 0;
-	top: 0;
-}
-@media screen and (max-width: 768px){
-	.desktopOnly{
-	display: none;
-	}
-	#dropdownMenuButton1{
-	background-color: #ffb4a2;
-	color: #6d6875;
-	}
-	.dropdown-menu .dropdown-item{
-	background-color: #ffb4a2;
-	color: #6d6875;
-	}
-	.parallaxInicio{
-	background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
-	height: 150px;
-	width: 100vw;
-	opacity: 0.7;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: top;
-	background-repeat: no-repeat;
-	}
-}
-.colorFondo{
-	background-color: #f8edeb;
-}
-.parallaxInicio{
-	background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
-	height: 250px;
-	width: 100vw;
-	opacity: 0.7;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: top;
-	background-repeat: no-repeat;
-}
-.parallaxEventos{
-	background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/bb54cad314a2d6f14c7d1b63b8269470-scaled.jpg);
-	height: 250px;
-	width: 100vw;
-	opacity: 0.7;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-.tituloPag{
-	opacity: 0.7;
-	color: #d8e2dc;
-}
-#header div a{
-	color: #6d6875;
-	transition-property: font-size;
-	transition-timing-function: ease-in-out;
-	transition-duration: 480ms;
-}
-#header div a:hover {
-	font-size: 1.6rem;
-	color: #b5838d;
-}
-.enlacesInternos a{
-	color: #b5838d;
-	text-decoration: none;
-	font-weight: bold;
-}
-.enlacesInternos a:hover{
-	color: #ffb4a2;
-}
-/*Edicion de imágenes en index*/
-.imagenPeq{
-	width: 10rem;
-	height: auto;
-	padding-left: 20px;
-}
-.imgEventos{
-	width: 57%;
-	height: auto;
-}
-.imgProd{
-	 width: 70%;
-	 height: auto;
-}
+* {
+  margin: 0;
+  padding: 0; }
+
+@media all and (max-width: 767px) {
+  .desktopOnly {
+    display: none; }
+  .bannerUno {
+    width: auto;
+    height: 10%; }
+    .bannerUno .tituloPag {
+      font-size: 15vw; }
+  .bannerDos {
+    width: 100%;
+    height: 100px; }
+    .bannerDos .tituloPag {
+      font-size: 15vw; }
+  #dropdownMenuButton1 {
+    background-color: #ffb4a2;
+    color: #6d6875; }
+    #dropdownMenuButton1 .dropdown-menu .dropdown-item {
+      color: #6d6875; } }
+
+.edicionFooter .nombreFooter {
+  color: #bfd200;
+  text-decoration: underline;
+  text-decoration-style: wavy; }
+
+.bannerDos {
+  background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/bb54cad314a2d6f14c7d1b63b8269470-scaled.jpg);
+  height: 350px;
+  width: cover;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat; }
+  .bannerDos .tituloPag {
+    line-height: 20rem;
+    font-size: 5vw;
+    color: #FFF; }
+
+.bannerUno {
+  background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
+  height: 350px;
+  width: cover;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat; }
+  .bannerUno .tituloPag {
+    line-height: 20rem;
+    font-size: 5vw;
+    color: #FFF; }
+
+.colorFondo {
+  background-color: #9D8189; }
+  .colorFondo .BarraNav div a {
+    color: #A7809B;
+    transition-property: font-size;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms; }
+    .colorFondo .BarraNav div a:hover {
+      font-size: 1.5rem;
+      color: #FFE5D9; }
+  .colorFondo .textoCuerpo {
+    color: #FFF;
+    font-size: 1.5rem; }
+  .colorFondo .textoInfoPeq {
+    color: #A75B8C; }
+  .colorFondo .imagenPeq {
+    width: 10rem;
+    height: auto;
+    position: center; }
+  .colorFondo .BgEspecial {
+    background: linear-gradient(to bottom, #9D8189, #fed9b7, #9D8189); }
+  .colorFondo .TitulosEvent {
+    color: #f3c4fb; }
+  .colorFondo .enlacesSuperiores {
+    color: #f3c4fb;
+    text-decoration: none; }
+    .colorFondo .enlacesSuperiores:hover {
+      color: #C7ECD2; }
+  .colorFondo .enlacesInternos {
+    color: #b8f2e6; }
+    .colorFondo .enlacesInternos:hover {
+      color: #C7ECD2; }
+  .colorFondo .imgProd-Index {
+    width: 70%;
+    height: auto; }
+  .colorFondo .imgEven-index {
+    width: 57%;
+    height: auto; }
+
 /*Estilo de footer*/
 .edicionFooter {
-	background-color: #ffb4a2;
-	text-decoration: none;
-	color: #6d6875;
-}
-.edicionFooter ul li {
-	list-style: none;
-	text-decoration: none;
-}
-.edicionFooter img{
-	height: 18px;
-	width: 18px;
-}
-.edicionFooter a {
-	color: #b5838d;
-	text-decoration: none;
-}
-.edicionFooter a:hover {
-	color: #ffcdb2;
-	text-decoration: none;
-}
-.edicionFooter .TransFooter input[type=text] {
-  	width: 100px;
-  	transition: width .35s ease-in-out;
-}
-.edicionFooter .TransFooter input[type=text]:focus {
-	width: 250px;
-}
+  background: linear-gradient(to bottom, #9D8189, #F4BEB7);
+  padding-top: 2.5rem; }
+  .edicionFooter ul li {
+    list-style: none;
+    text-decoration: none; }
+  .edicionFooter img {
+    height: 18px;
+    width: 18px; }
+  .edicionFooter a {
+    color: #b8f2e6;
+    text-decoration: none; }
+    .edicionFooter a:hover {
+      color: #A75B8C; }
+  .edicionFooter .TransFooter input[type=text] {
+    width: 100px;
+    transition: width .35s ease-in-out; }
+    .edicionFooter .TransFooter input[type=text]:focus {
+      width: 200px; }

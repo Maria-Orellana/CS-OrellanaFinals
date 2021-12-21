@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@media all and (max-width: 767px){
+	.desktopOnly{
+	display: none;
+	}
+	.bannerUno{
+		width: auto;
+		height: 10%;
+		.tituloPag{
+			font-size: 15vw;
+		}
+	}
+	.bannerDos{
+		width: 100%;
+		height: 100px;
+		.tituloPag{
+			font-size: 15vw;
+		}
+	}
+	#dropdownMenuButton1{
+	background-color: #ffb4a2;
+	color: #6d6875;
+		.dropdown-menu {
+			.dropdown-item{
+			color: #6d6875;
+			}
+		}
+	}
+}
+%TextoExpecial{
+	color: #bfd200;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	}
+.bannerDos{
+	@include bannerEventos;
+	.tituloPag{
+		line-height: 20rem;
+		font-size: 5vw;
+		color: map-get($ColoresFonts, LetraBase);
+	}
+}
+.bannerUno{
+	@include bannerIndex;
+	.tituloPag{
+		line-height: 20rem;
+		font-size: 5vw;
+		color: map-get($ColoresFonts, LetraBase);
+	}
+}
+.colorFondo{
+	background-color: #9D8189;	
+	.BarraNav{
+		& div{
+			& a{
+				color: map-get($ColoresFonts, EnlaceNav);
+				transition-property: font-size;
+				transition-timing-function: ease-in-out;
+				transition-duration: 500ms;
+				&:hover{
+					font-size: 1.5rem;
+					color: map-get($ColoresFonts, EnlaceNav-hover);
+				}
+			}
+		}
+	}
+	.textoCuerpo{
+		color: map-get($ColoresFonts, LetraBase);
+		font-size: 1.5rem
+		}
+		.textoInfoPeq{
+			color: map-get($ColoresFonts, InfoPeq);
+			}
+		.imagenPeq{
+			width: 10rem;
+			height: auto;
+			position: center;
+		}
+	.BgEspecial{
+		background: linear-gradient(to bottom, #9D8189, #fed9b7, #9D8189);
+	}
+	.TitulosEvent{
+		color: #f3c4fb;
+	}
+	.enlacesSuperiores{
+		color: map-get($ColoresFonts, EnlaceSup);
+		text-decoration: none;
+		&:hover{
+			color: map-get($ColoresFonts, EnlaceSup-hover);
+		}
+	}
+	.enlacesInternos{
+		color: map-get($ColoresFonts, EnlaceInter);
+		&:hover{
+			color: map-get($ColoresFonts, EnlaceInter-hover);
+		}
+	}
+	.imgProd-Index{
+		width: 70%;
+		height: auto;
+	}
+	.imgEven-index{
+		width: 57%;
+		height: auto;
+	}
+}
+/*Estilo de footer*/
+.edicionFooter {
+	background: linear-gradient(to bottom, #9D8189, #F4BEB7);
+	padding-top: 2.5rem;
+	 .nombreFooter {
+	 @extend %TextoExpecial;
+	}
+	ul li{
+		list-style: none;
+		text-decoration: none;
+	}
+	img{
+		height: 18px;
+		width: 18px;
+	}
+	a{
+		color: #b8f2e6;
+		text-decoration: none;
+		&:hover{
+			color: #A75B8C;
+		}
+	}
+	.TransFooter input[type=text]{
+		width: 100px;
+  		transition: width .35s ease-in-out;
+		&:focus{
+			width: 200px;
+		}
+	}
+
+}
