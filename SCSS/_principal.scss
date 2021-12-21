@@ -6,9 +6,6 @@
 	.desktopOnly{
 	display: none;
 	}
-	.colorFondo{
-		background: linear-gradient(to bottom, #9D8189, #F4BEB7);
-	}
 	#dropdownMenuButton1{
 	background-color: #ffb4a2;
 	color: #6d6875;
@@ -49,6 +46,14 @@
 }
 .bannerCuatro{
 	@include bannerZonagaming;
+	.tituloPag{
+		line-height: 20rem;
+		font-size: 5vw;
+		color: map-get($ColoresFonts, LetraBase);
+	}
+}
+.bannerCinco{
+	@include bannerContacto;
 	.tituloPag{
 		line-height: 20rem;
 		font-size: 5vw;

@@ -5,8 +5,6 @@
 @media all and (max-width: 767px) {
   .desktopOnly {
     display: none; }
-  .colorFondo {
-    background: linear-gradient(to bottom, #9D8189, #F4BEB7); }
   #dropdownMenuButton1 {
     background-color: #ffb4a2;
     color: #6d6875; }
@@ -68,6 +66,20 @@
   background-position: center;
   background-repeat: no-repeat; }
   .bannerCuatro .tituloPag {
+    line-height: 20rem;
+    font-size: 5vw;
+    color: #FFF; }
+
+.bannerCinco {
+  background-image: url(https://wallpapercave.com/wp/wp2578580.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .bannerCinco .tituloPag {
     line-height: 20rem;
     font-size: 5vw;
     color: #FFF; }
