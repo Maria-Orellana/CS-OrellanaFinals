@@ -23,4 +23,13 @@
 	background-position: top;
 	background-repeat: no-repeat;
 }
+@mixin bannerProductos{
+	background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/06/gaming-wallpaper-2006012050489.jpg);
+	height: 300px;
+	width: cover;
+	opacity: 0.7;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 $ColoresFonts:(EnlaceNav:#A7809B, EnlaceNav-hover:#FFE5D9, EnlaceSup: #f3c4fb, EnlaceSup-hover: #C7ECD2, EnlaceInter: #b8f2e6, EnlaceInter-hover: #C7ECD2, LetraBase: #FFF, InfoPeq: #A75B8C);
