@@ -7,17 +7,14 @@
     display: none; }
   .colorFondo {
     background: linear-gradient(to bottom, #9D8189, #F4BEB7); }
-  .bannerUno .tituloPag {
-    font-size: 5rem; }
-  .bannerDos .tituloPag {
-    font-size: 15vw; }
-  .bannerTres .tituloPag {
-    font-size: 15vw; }
   #dropdownMenuButton1 {
     background-color: #ffb4a2;
     color: #6d6875; }
     #dropdownMenuButton1 .dropdown-menu .dropdown-item {
-      color: #6d6875; } }
+      color: #6d6875; }
+  iframe {
+    width: 250px;
+    height: 170px; } }
 
 .bannerUno {
   background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
@@ -61,7 +58,7 @@
     font-size: 5vw;
     color: #FFF; }
 
-.bannerCutro {
+.bannerCuatro {
   background-image: url(https://i.pinimg.com/originals/f3/72/56/f37256b61802fb2c715a383c84a011a4.jpg);
   background-size: cover;
   height: 300px;
@@ -70,7 +67,7 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; }
-  .bannerCutro .tituloPag {
+  .bannerCuatro .tituloPag {
     line-height: 20rem;
     font-size: 5vw;
     color: #FFF; }
@@ -116,6 +113,17 @@
     margin: auto;
     width: 80%;
     height: auto; }
+  .colorFondo .imgPrinZG {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 80%;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem; }
+  .colorFondo iframe {
+    display: block;
+    margin: auto; }
 
 /*Estilo de footer*/
 .edicionFooter {
