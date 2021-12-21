@@ -99,13 +99,21 @@
     color: #FFCBF2;
     font-size: 1.5rem; }
   .colorFondo .textoInfoPeq {
-    color: #A75B8C; }
+    color: #C2C3FF;
+    /*color: map-get($ColoresFonts, InfoPeq);*/ }
   .colorFondo .imagenPeq {
     width: 10rem;
     height: auto;
     position: center; }
+  .colorFondo .UpperSubTitle {
+    color: #D0D1FF; }
+  .colorFondo .LowerSubTitle {
+    color: #4E007A; }
+  .colorFondo .LowerInfoPeq {
+    color: #7073FF; }
   .colorFondo .TitulosEvent {
-    color: #f3c4fb; }
+    color: #FFEBFA;
+    font-weight: bold; }
   .colorFondo .enlacesSuperiores {
     color: #f3c4fb;
     text-decoration: none; }

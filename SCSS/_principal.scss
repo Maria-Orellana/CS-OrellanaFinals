@@ -83,15 +83,26 @@
 		font-size: 1.5rem
 		}
 		.textoInfoPeq{
-			color: map-get($ColoresFonts, InfoPeq);
+			color: #C2C3FF;
+			/*color: map-get($ColoresFonts, InfoPeq);*/
 			}
 		.imagenPeq{
 			width: 10rem;
 			height: auto;
 			position: center;
 		}
+	.UpperSubTitle{
+		color: #D0D1FF;
+	}
+	.LowerSubTitle{
+		color: #4E007A;
+		}
+	.LowerInfoPeq{
+			color: #7073FF;
+		}
 	.TitulosEvent{
-		color: #f3c4fb;
+		color: #FFEBFA;
+		font-weight: bold;
 	}
 	.enlacesSuperiores{
 		color: map-get($ColoresFonts, EnlaceSup);
