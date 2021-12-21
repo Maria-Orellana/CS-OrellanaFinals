@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contacto</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../style/style.css">
+		<div class="parallaxContacto">
+			<div class="estiloTitulo">
+				<div>Contacto</div>
+			</div>
+		</div>
+	</head>
+	<body>
+		<div class="textoMenu">
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="eventos.html">Eventos</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="zonagaming.html">ZonaGaming</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</div>
+		<div class="colorFondo">
+			<br>
+			<div class="contenidoCuerpo"> 
+			<p>Puedes enviar tus dudas, avisarnos tu interés para aparecer en nuestro apartado de <a href="productos.html" class="enlaceInterno">“productos”</a> o solo escribirnos, porque quieres dejarnos alguna sugerencia:</p>
+			</div>	
+			<div class="formulario">
+			<form action="submit" method="POST">
+			<br>
+			<div class="formulario">
+			<div><label for="Nombre">Nombre:</label></div>
+			<div><input type="text" name="Nombre"></div>
+			<div><label for="Apellido">Apellido:</label></div>
+			<div><input type="text" name="Apellido"></div>
+			<div><label for="Edad">Tu edad:</label></div>
+			<div><input type="number" name="Edad"></div>
+			<div><label for="email">Correo electrónico:</label></div>
+			<div><input type="email" name="email"></div>
+			<div>
+			<span><label for="radio">Sugerencia:</label></span>
+			<span><input type="radio" name="tipo_mensaje" value="Sugerencia"></span>
+			<br>
+			<span><label for="radio">Sección Productos:</label></span>
+			<span><input type="radio" name="tipo_mensaje" value="Sección Productos"></span>
+			<br>
+			<span><label for="radio">Consulta General:</label></span>
+			<span><input type="radio" name="tipo_mensaje" value="Consulta General"></span>
+			</div>
+			<div><label for="comentarios">Cuéntanos el motivo de tu mensaje:</label></div>
+			<div class="fomularioTexto"><input type="textarea" name="comentarios"></div>
+			<div><input type="Button" name="Enviar" value="Enviar mensaje"></div>
+			</div>
+			</div>
+			</form>
+					<!-- Aquí inicia footer -->
+			<div id="footer" class="edicionFooter">
+			<ul>
+				<div>Nuestras redes sociales:</div>
+				<li><a href="#"><img src="../assets/fblogo.png"> Facebook</a></li>
+				<li><a href="#"><img src="../assets/ilogo.png"> Instagram</a></li>
+				<li><a href="#"><img src="../assets/tlogo.png"> Twitter</a></li>
+				<li><a href="#"><img src="../assets/youtube-logo-hd-8.png"> Youtube</a></li>
+				<li><a href="#"><img src="../assets/twitchlogo.png"> Twitch</a></li>
+			</ul>
+			<form action="submit" method="POST">
+				<div>SUSCRÍBETE A NUESTRO NEWSLETTER:</div>
+				<input type="text" name="Email" value="Aquí tu email">
+				<input type="button" name="Enviar" value="Enviar">
+			</form>
+			</div>
+		</div>
+	</body>
+</html>
