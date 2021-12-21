@@ -8,7 +8,7 @@
   #dropdownMenuButton1 {
     background-color: #ffb4a2;
     color: #6d6875; }
-    #dropdownMenuButton1 .dropdown-menu .dropdown-item {
+    #dropdownMenuButton1 .dropdown-menu.dropdown-item {
       color: #6d6875; }
   iframe {
     width: 250px;
@@ -26,7 +26,7 @@
   .bannerUno .tituloPag {
     line-height: 20rem;
     font-size: 5vw;
-    color: #FFF; }
+    color: #C8E7FF; }
 
 .bannerDos {
   background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/bb54cad314a2d6f14c7d1b63b8269470-scaled.jpg);
@@ -40,7 +40,7 @@
   .bannerDos .tituloPag {
     line-height: 20rem;
     font-size: 5vw;
-    color: #FFF; }
+    color: #C8E7FF; }
 
 .bannerTres {
   background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/06/gaming-wallpaper-2006012050489.jpg);
@@ -54,7 +54,7 @@
   .bannerTres .tituloPag {
     line-height: 20rem;
     font-size: 5vw;
-    color: #FFF; }
+    color: #C8E7FF; }
 
 .bannerCuatro {
   background-image: url(https://i.pinimg.com/originals/f3/72/56/f37256b61802fb2c715a383c84a011a4.jpg);
@@ -68,7 +68,7 @@
   .bannerCuatro .tituloPag {
     line-height: 20rem;
     font-size: 5vw;
-    color: #FFF; }
+    color: #C8E7FF; }
 
 .bannerCinco {
   background-image: url(https://wallpapercave.com/wp/wp2578580.jpg);
@@ -82,20 +82,21 @@
   .bannerCinco .tituloPag {
     line-height: 20rem;
     font-size: 5vw;
-    color: #FFF; }
+    color: #C8E7FF; }
 
 .colorFondo {
-  background: linear-gradient(to bottom, #F4BEB7, #9D8189); }
+  background: linear-gradient(to bottom, #001414, #FFF);
+  /*background-color: #001414;*/ }
   .colorFondo .BarraNav div a {
-    color: #A7809B;
+    color: #001414;
     transition-property: font-size;
     transition-timing-function: ease-in-out;
     transition-duration: 500ms; }
     .colorFondo .BarraNav div a:hover {
       font-size: 1.5rem;
-      color: #FFE5D9; }
+      color: #DEAAFF; }
   .colorFondo .textoCuerpo {
-    color: #FFF;
+    color: #FFCBF2;
     font-size: 1.5rem; }
   .colorFondo .textoInfoPeq {
     color: #A75B8C; }
@@ -111,9 +112,9 @@
     .colorFondo .enlacesSuperiores:hover {
       color: #C7ECD2; }
   .colorFondo .enlacesInternos {
-    color: #b8f2e6; }
+    color: #DEAAFF; }
     .colorFondo .enlacesInternos:hover {
-      color: #C7ECD2; }
+      color: #C0FDFF; }
   .colorFondo .imgProd-Index {
     width: 70%;
     height: auto; }
@@ -137,12 +138,13 @@
     display: block;
     margin: auto; }
   .colorFondo .formulario {
-    color: #323036; }
+    color: #FFCBF2;
+    padding-bottom: 5rem; }
 
 /*Estilo de footer*/
 .edicionFooter {
-  background: linear-gradient(to bottom, #9D8189, #F4BEB7);
-  padding-top: 2.5rem; }
+  /*background: linear-gradient(to bottom, #9D8189, #F4BEB7);*/
+  color: #6d6875; }
   .edicionFooter ul li {
     list-style: none;
     text-decoration: none; }
@@ -150,10 +152,10 @@
     height: 18px;
     width: 18px; }
   .edicionFooter a {
-    color: #b8f2e6;
+    color: #DEAAFF;
     text-decoration: none; }
     .edicionFooter a:hover {
-      color: #A75B8C; }
+      color: #C0FDFF; }
   .edicionFooter .TransFooter input[type=text] {
     width: 100px;
     transition: width .35s ease-in-out; }
