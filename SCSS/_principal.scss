@@ -131,6 +131,9 @@
 		display: block;
 		margin: auto;
 	}
+	.formulario{
+		color: map-get($ColoresFonts, Form);
+	}
 }
 /*Estilo de footer*/
 .edicionFooter {

@@ -136,6 +136,8 @@
   .colorFondo iframe {
     display: block;
     margin: auto; }
+  .colorFondo .formulario {
+    color: #323036; }
 
 /*Estilo de footer*/
 .edicionFooter {

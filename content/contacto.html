@@ -42,38 +42,38 @@
 			</div>
 		</nav>
 		<br>
-			<div class="textoCuerpo fs-5 text-center text-md-start ps-3 pe-3"> 
+			<div class="textoCuerpo text-center text-md-start ps-3 pe-3"> 
 			<p>Puedes enviar tus dudas, avisarnos tu interés para aparecer en nuestro apartado de <a href="productos.html" class="enlacesInternos text-decoration-none">“productos”</a> o solo escribirnos, porque quieres dejarnos alguna sugerencia:</p>
 			</div>	
-			<div class="form-group align-middle">
-			<form action="submit" method="POST">
-			<br>
-			<div class="formulario">
-			<div><label for="Nombre">Nombre:</label></div>
-			<div><input type="text" name="Nombre"></div>
-			<div><label for="Apellido">Apellido:</label></div>
-			<div><input type="text" name="Apellido"></div>
-			<div><label for="Edad">Tu edad:</label></div>
-			<div><input type="number" name="Edad"></div>
-			<div><label for="email">Correo electrónico:</label></div>
-			<div><input type="email" name="email"></div>
-			<div>
-			<span><label for="radio">Sugerencia:</label></span>
-			<span><input type="radio" name="tipo_mensaje" value="Sugerencia"></span>
-			<br>
-			<span><label for="radio">Sección Productos:</label></span>
-			<span><input type="radio" name="tipo_mensaje" value="Sección Productos"></span>
-			<br>
-			<span><label for="radio">Consulta General:</label></span>
-			<span><input type="radio" name="tipo_mensaje" value="Consulta General"></span>
+			<div class="textoCuerpo text-center ps-3 pe-3">
+				<form class="pb-5" action="submit" method="POST">
+				<br>
+				<div class="formulario">
+					<div><label for="Nombre">Nombre:</label></div>
+					<div><input type="text" name="Nombre"></div>
+					<div><label for="Apellido">Apellido:</label></div>
+					<div><input type="text" name="Apellido"></div>
+					<div><label for="Edad">Tu edad:</label></div>
+					<div><input type="number" name="Edad"></div>
+					<div><label for="email">Correo electrónico:</label></div>
+					<div><input type="email" name="email"></div>
+					<span class="fw-light fst-italic"><label for="radio">Sugerencia:</label></span>
+					<span><input type="radio" name="tipo_mensaje" value="Sugerencia"></span>
+					<br>
+					<span class="fw-light fst-italic"><label for="radio">Sección Productos:</label></span>
+					<span><input type="radio" name="tipo_mensaje" value="Sección Productos"></span>
+					<br>
+					<span class="fw-light fst-italic"><label for="radio">Consulta General:</label></span>
+					<span><input type="radio" name="tipo_mensaje" value="Consulta General"></span>
+					<br>
+					<label class="pt-3 fw-bold" for="comentarios">Cuéntanos el motivo de tu mensaje:</label>
+					<br>
+					<textarea class="form-control-lg mb-3" rows="5" cols="28" name="comentarios"></textarea>
+					<div><input type="Button" name="Enviar" value="Enviar mensaje"></div>
+					</div>
+				</form>
 			</div>
-			<div><label for="comentarios">Cuéntanos el motivo de tu mensaje:</label></div>
-			<textarea class="form-control" rows="3" name="comentarios"></textarea>
-			<div><input type="Button" name="Enviar" value="Enviar mensaje"></div>
-			</div>
-			</div>
-			</form>
-					<!-- Aquí inicia footer -->
+			<!-- Aquí inicia footer -->
 			<div id="footer" class="edicionFooter">
 			<ul>
 				<div>Nuestras redes sociales:</div>
@@ -86,7 +86,7 @@
 			<form action="submit" method="POST">
 				<div>SUSCRÍBETE A NUESTRO NEWSLETTER:</div>
 				<input type="text" name="Email" value="Aquí tu email">
-				<input type="button" name="Enviar" value="Enviar">
+				<input  type="button" name="Enviar" value="Enviar">
 			</form>
 			</div>
 		</div>
