@@ -6,9 +6,12 @@
 	.desktopOnly{
 	display: none;
 	}
+	.colorFondo{
+		background: linear-gradient(to bottom, #9D8189, #F4BEB7);
+	}
 	.bannerUno{
 		.tituloPag{
-			font-size: 15vw;
+			font-size: 5rem;
 		}
 	}
 	.bannerDos{
@@ -56,7 +59,7 @@
 	}
 }
 .colorFondo{
-	background-color: #9D8189;	
+	background: linear-gradient(to bottom, #F4BEB7, #9D8189);	
 	.BarraNav{
 		& div{
 			& a{
@@ -83,9 +86,6 @@
 			height: auto;
 			position: center;
 		}
-	.BgEspecial{
-		background: linear-gradient(to bottom, #9D8189, #fed9b7, #9D8189);
-	}
 	.TitulosEvent{
 		color: #f3c4fb;
 	}
@@ -108,6 +108,12 @@
 	}
 	.imgEven-index{
 		width: 57%;
+		height: auto;
+	}
+	.imgProd{
+		display: block;
+		margin: auto;
+		width: 80%;
 		height: auto;
 	}
 }

@@ -5,8 +5,10 @@
 @media all and (max-width: 767px) {
   .desktopOnly {
     display: none; }
+  .colorFondo {
+    background: linear-gradient(to bottom, #9D8189, #F4BEB7); }
   .bannerUno .tituloPag {
-    font-size: 15vw; }
+    font-size: 5rem; }
   .bannerDos .tituloPag {
     font-size: 15vw; }
   .bannerTres .tituloPag {
@@ -19,11 +21,12 @@
 
 .bannerUno {
   background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
-  height: 350px;
-  width: cover;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat; }
   .bannerUno .tituloPag {
     line-height: 20rem;
@@ -32,11 +35,12 @@
 
 .bannerDos {
   background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/bb54cad314a2d6f14c7d1b63b8269470-scaled.jpg);
-  height: 350px;
-  width: cover;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat; }
   .bannerDos .tituloPag {
     line-height: 20rem;
@@ -45,8 +49,9 @@
 
 .bannerTres {
   background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/06/gaming-wallpaper-2006012050489.jpg);
+  background-size: cover;
   height: 300px;
-  width: cover;
+  width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
   background-position: center;
@@ -57,7 +62,7 @@
     color: #FFF; }
 
 .colorFondo {
-  background-color: #9D8189; }
+  background: linear-gradient(to bottom, #F4BEB7, #9D8189); }
   .colorFondo .BarraNav div a {
     color: #A7809B;
     transition-property: font-size;
@@ -75,8 +80,6 @@
     width: 10rem;
     height: auto;
     position: center; }
-  .colorFondo .BgEspecial {
-    background: linear-gradient(to bottom, #9D8189, #fed9b7, #9D8189); }
   .colorFondo .TitulosEvent {
     color: #f3c4fb; }
   .colorFondo .enlacesSuperiores {
@@ -93,6 +96,11 @@
     height: auto; }
   .colorFondo .imgEven-index {
     width: 57%;
+    height: auto; }
+  .colorFondo .imgProd {
+    display: block;
+    margin: auto;
+    width: 80%;
     height: auto; }
 
 /*Estilo de footer*/
