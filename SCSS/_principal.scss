@@ -58,6 +58,14 @@
 		color: map-get($ColoresFonts, LetraBase);
 	}
 }
+.bannerCutro{
+	@include bannerZonagaming;
+	.tituloPag{
+		line-height: 20rem;
+		font-size: 5vw;
+		color: map-get($ColoresFonts, LetraBase);
+	}
+}
 .colorFondo{
 	background: linear-gradient(to bottom, #F4BEB7, #9D8189);	
 	.BarraNav{
