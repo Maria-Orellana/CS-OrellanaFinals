@@ -85,8 +85,8 @@
     color: #C8E7FF; }
 
 .colorFondo {
-  background: linear-gradient(to bottom, #001414, #FFF);
-  /*background-color: #001414;*/ }
+  /*background: linear-gradient(to bottom, #001414, #FFF);*/
+  background-color: #001414; }
   .colorFondo .BarraNav div a {
     color: #001414;
     transition-property: font-size;
@@ -115,10 +115,11 @@
     color: #FFEBFA;
     font-weight: bold; }
   .colorFondo .enlacesSuperiores {
-    color: #f3c4fb;
-    text-decoration: none; }
+    color: #C0FDFF;
+    text-decoration: none;
+    font-weight: bold; }
     .colorFondo .enlacesSuperiores:hover {
-      color: #C7ECD2; }
+      color: #D0D1FF; }
   .colorFondo .enlacesInternos {
     color: #DEAAFF; }
     .colorFondo .enlacesInternos:hover {
@@ -148,11 +149,16 @@
   .colorFondo .formulario {
     color: #FFCBF2;
     padding-bottom: 5rem; }
+  .colorFondo .ImgContPrincEventos {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 80%; }
 
 /*Estilo de footer*/
 .edicionFooter {
-  /*background: linear-gradient(to bottom, #9D8189, #F4BEB7);*/
-  color: #6d6875; }
+  background: linear-gradient(180deg, #001414 0%, white 100%);
+  color: #e2ece9; }
   .edicionFooter ul li {
     list-style: none;
     text-decoration: none; }

@@ -61,9 +61,8 @@
 	}
 }
 .colorFondo{
-	background: linear-gradient(to bottom, #001414, #FFF);
-	
-	/*background-color: #001414;*/	
+	/*background: linear-gradient(to bottom, #001414, #FFF);*/
+	background-color: #001414;
 	.BarraNav{
 		& div{
 			& a{
@@ -107,6 +106,7 @@
 	.enlacesSuperiores{
 		color: map-get($ColoresFonts, EnlaceSup);
 		text-decoration: none;
+		font-weight: bold;
 		&:hover{
 			color: map-get($ColoresFonts, EnlaceSup-hover);
 		}
@@ -148,10 +148,16 @@
 		color: map-get($ColoresFonts, LContGral);
 		padding-bottom: 5rem;
 	}
+	.ImgContPrincEventos{
+		display: block;
+		margin: auto;
+		height: auto;
+		width: 80%;
+	}
 }
 /*Estilo de footer*/
 .edicionFooter {
-		/*background: linear-gradient(to bottom, #9D8189, #F4BEB7);*/
+		background: linear-gradient(180deg, hsla(180, 100%, 4%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
 		color: map-get($ColoresFonts, LetraAuxiliar);
 		ul li{
 			list-style: none;
