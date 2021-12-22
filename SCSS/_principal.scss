@@ -82,8 +82,7 @@
 		font-size: 1.5rem
 		}
 		.textoInfoPeq{
-			color: #C2C3FF;
-			/*color: map-get($ColoresFonts, InfoPeq);*/
+			color: map-get($ColoresFonts, InfoPeq);
 			}
 		.imagenPeq{
 			width: 10rem;
@@ -93,12 +92,6 @@
 	.UpperSubTitle{
 		color: #D0D1FF;
 	}
-	.LowerSubTitle{
-		color: #4E007A;
-		}
-	.LowerInfoPeq{
-			color: #7073FF;
-		}
 	.TitulosEvent{
 		color: #FFEBFA;
 		font-weight: bold;
