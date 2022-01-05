@@ -6,8 +6,8 @@
   .desktopOnly {
     display: none; }
   #dropdownMenuButton1 {
-    background-color: #ffb4a2;
-    color: #6d6875; }
+    background-color: #C8E7FF;
+    color: #C8E7FF; }
     #dropdownMenuButton1 .dropdown-menu.dropdown-item {
       color: #6d6875; }
   iframe {
@@ -99,18 +99,13 @@
     color: #FFCBF2;
     font-size: 1.5rem; }
   .colorFondo .textoInfoPeq {
-    color: #C2C3FF;
-    /*color: map-get($ColoresFonts, InfoPeq);*/ }
+    color: #C2C3FF; }
   .colorFondo .imagenPeq {
     width: 10rem;
     height: auto;
     position: center; }
   .colorFondo .UpperSubTitle {
     color: #D0D1FF; }
-  .colorFondo .LowerSubTitle {
-    color: #4E007A; }
-  .colorFondo .LowerInfoPeq {
-    color: #7073FF; }
   .colorFondo .TitulosEvent {
     color: #FFEBFA;
     font-weight: bold; }
