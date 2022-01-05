@@ -15,16 +15,21 @@
     height: 170px; }
   .tituloPag {
     line-height: 4rem; }
-  .bannerDos {
-    height: 100px; }
   .bannerUno {
-    height: 100px; }
+    height: 100px;
+    background-position: inherit; }
+  .bannerDos {
+    height: 100px;
+    background-position: inherit; }
   .bannerTres {
-    height: 100px; }
+    height: 100px;
+    background-position: inherit; }
   .bannerCuatro {
-    height: 100px; }
+    height: 100px;
+    background-position: inherit; }
   .bannerCinco {
-    height: 100px; } }
+    height: 100px;
+    background-position: inherit; } }
 
 .bannerUno {
   background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
@@ -32,8 +37,7 @@
   width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: top; }
+  background-repeat: no-repeat; }
   .bannerUno .tituloPag {
     line-height: 5em;
     font-size: 5vw;
@@ -45,8 +49,7 @@
   width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: top; }
+  background-repeat: no-repeat; }
   .bannerDos .tituloPag {
     line-height: 5em;
     font-size: 5vw;
@@ -55,42 +58,36 @@
 .bannerTres {
   background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/06/gaming-wallpaper-2006012050489.jpg);
   background-size: cover;
-  height: 300px;
   width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat; }
   .bannerTres .tituloPag {
-    line-height: 20rem;
+    line-height: 5em;
     font-size: 5vw;
     color: #C8E7FF; }
 
 .bannerCuatro {
   background-image: url(https://i.pinimg.com/originals/f3/72/56/f37256b61802fb2c715a383c84a011a4.jpg);
   background-size: cover;
-  height: 300px;
   width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat; }
   .bannerCuatro .tituloPag {
-    line-height: 20rem;
+    line-height: 5em;
     font-size: 5vw;
     color: #C8E7FF; }
 
 .bannerCinco {
   background-image: url(https://wallpapercave.com/wp/wp2578580.jpg);
   background-size: cover;
-  height: 300px;
   width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat; }
   .bannerCinco .tituloPag {
-    line-height: 20rem;
+    line-height: 5em;
     font-size: 5vw;
     color: #C8E7FF; }
 

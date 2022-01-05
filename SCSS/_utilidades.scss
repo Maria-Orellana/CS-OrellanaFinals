@@ -24,31 +24,25 @@
 @mixin bannerProductos{
 	background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/06/gaming-wallpaper-2006012050489.jpg);
 	background-size: cover;
-	height: 300px;
-	width: 100%;
+		width: 100%;
 	opacity: 0.7;
 	background-attachment: fixed;
-	background-position: center;
 	background-repeat: no-repeat;
 }
 @mixin bannerZonagaming{
 	background-image: url(https://i.pinimg.com/originals/f3/72/56/f37256b61802fb2c715a383c84a011a4.jpg);
 	background-size: cover;
-	height: 300px;
 	width: 100%;
 	opacity: 0.7;
 	background-attachment: fixed;
-	background-position: center;
 	background-repeat: no-repeat;
 }
 @mixin bannerContacto{
 	background-image: url(https://wallpapercave.com/wp/wp2578580.jpg);
 	background-size: cover;
-	height: 300px;
 	width: 100%;
 	opacity: 0.7;
 	background-attachment: fixed;
-	background-position: center;
 	background-repeat: no-repeat;
 }
 $ColoresFonts:(LContGral: #FFCBF2, EnlaceNav:#001414, EnlaceNav-hover:#DEAAFF, EnlaceSup: #C0FDFF, EnlaceSup-hover: #D0D1FF, EnlaceInter: #DEAAFF, EnlaceInter-hover: #C0FDFF, LetraBase: #C8E7FF, InfoPeq: #C2C3FF, LetraAuxiliar: #e2ece9);

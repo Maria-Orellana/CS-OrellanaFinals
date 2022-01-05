@@ -22,26 +22,29 @@
 	.tituloPag{
 		line-height: 4rem;
 	}
-	.bannerDos{
-		height: 100px;
-		
-	}
 	.bannerUno{
 		height: 100px;
+		background-position: inherit;
+	}
+	.bannerDos{
+		height: 100px;
+		background-position: inherit;
 	}
 	.bannerTres{
 		height: 100px;
+		background-position: inherit;
 	}
 	.bannerCuatro{
 		height: 100px;
+		background-position: inherit;
 	}
 	.bannerCinco{
 		height: 100px;
+		background-position: inherit;
 	}
 }
 .bannerUno{
 	@include bannerIndex;
-	background-position: top;
 	.tituloPag{
 		line-height: 5em;
 		font-size: 5vw;
@@ -50,7 +53,6 @@
 }
 .bannerDos{
 	@include bannerEventos;
-	background-position: top;
 	.tituloPag{
 		line-height: 5em;
 		font-size: 5vw;
@@ -60,7 +62,7 @@
 .bannerTres{
 	@include bannerProductos;
 	.tituloPag{
-		line-height: 20rem;
+		line-height: 5em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
@@ -68,7 +70,7 @@
 .bannerCuatro{
 	@include bannerZonagaming;
 	.tituloPag{
-		line-height: 20rem;
+		line-height: 5em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
@@ -76,7 +78,7 @@
 .bannerCinco{
 	@include bannerContacto;
 	.tituloPag{
-		line-height: 20rem;
+		line-height: 5em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
