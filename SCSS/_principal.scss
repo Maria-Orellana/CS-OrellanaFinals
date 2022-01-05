@@ -19,19 +19,40 @@
 		width: 250px;
 		height: 170px;
 	}
+	.tituloPag{
+		line-height: 4rem;
+	}
+	.bannerDos{
+		height: 100px;
+		
+	}
+	.bannerUno{
+		height: 100px;
+	}
+	.bannerTres{
+		height: 100px;
+	}
+	.bannerCuatro{
+		height: 100px;
+	}
+	.bannerCinco{
+		height: 100px;
+	}
 }
 .bannerUno{
 	@include bannerIndex;
+	background-position: top;
 	.tituloPag{
-		line-height: 20rem;
+		line-height: 5em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
 }
 .bannerDos{
 	@include bannerEventos;
+	background-position: top;
 	.tituloPag{
-		line-height: 20rem;
+		line-height: 5em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
