@@ -102,7 +102,7 @@
 	}
 	.textoCuerpo{
 		color: map-get($ColoresFonts, LContGral);
-		font-size: 1.5rem
+		font-size: 1rem
 		}
 		.textoInfoPeq{
 			color: map-get($ColoresFonts, InfoPeq);
@@ -126,6 +126,10 @@
 		&:hover{
 			color: map-get($ColoresFonts, EnlaceSup-hover);
 		}
+	}
+	.ListaInfo{
+		text-decoration: none;
+		color: map-get($ColoresFonts, InfoPeq);
 	}
 	.enlacesInternos{
 		color: map-get($ColoresFonts, EnlaceInter);

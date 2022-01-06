@@ -103,7 +103,7 @@
       color: #DEAAFF; }
   .colorFondo .textoCuerpo {
     color: #FFCBF2;
-    font-size: 1.5rem; }
+    font-size: 1rem; }
   .colorFondo .textoInfoPeq {
     color: #C2C3FF; }
   .colorFondo .imagenPeq {
@@ -121,6 +121,9 @@
     font-weight: bold; }
     .colorFondo .enlacesSuperiores:hover {
       color: #D0D1FF; }
+  .colorFondo .ListaInfo {
+    text-decoration: none;
+    color: #C2C3FF; }
   .colorFondo .enlacesInternos {
     color: #DEAAFF; }
     .colorFondo .enlacesInternos:hover {
