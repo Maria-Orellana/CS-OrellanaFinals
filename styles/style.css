@@ -32,22 +32,23 @@
     background-position: inherit; }
   .textoInfoPeq {
     font-size: 0.5rem; }
-    .textoInfoPeq .ListaInfo {
-      text-decoration: none; }
+  .enlacesSuperiores {
+    font-size: 2em; }
   .textoCuerpoMob {
     color: #FFCBF2;
-    font-size: 1.2rem; } }
+    font-size: 0.7rem; } }
 
 .bannerUno {
   background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
   background-size: cover;
   width: 100%;
   opacity: 0.7;
+  background-attachment: fixed;
   background-repeat: no-repeat; }
   .bannerUno .tituloPag {
-    line-height: 7em;
-    font-size: 5vw;
-    color: #C8E7FF; }
+    line-height: 6em;
+    font-size: 7vw;
+    color: #FFF; }
 
 .bannerDos {
   background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/bb54cad314a2d6f14c7d1b63b8269470-scaled.jpg);
@@ -110,7 +111,10 @@
       color: #DEAAFF; }
   .colorFondo .textoCuerpoDesk {
     color: #FFCBF2;
-    font-size: 2rem; }
+    font-size: 1.7rem; }
+  .colorFondo .textoInfoDesk {
+    color: #FFCBF2;
+    font-size: 1.2rem; }
   .colorFondo .textoInfoPeq {
     color: #C2C3FF; }
   .colorFondo .imagenPeq {
@@ -122,21 +126,29 @@
   .colorFondo .TitulosEvent {
     color: #FFEBFA;
     font-weight: bold; }
-  .colorFondo .enlacesSuperiores {
+  .colorFondo .enlacesSuperioresDesk {
     color: #C0FDFF;
     text-decoration: none;
     font-weight: bold;
-    font-size: 3vw; }
-    .colorFondo .enlacesSuperiores:hover {
+    font-size: 2.3rem; }
+    .colorFondo .enlacesSuperioresDesk:hover {
+      color: #D0D1FF; }
+  .colorFondo .enlacesSuperioresMob {
+    color: #C0FDFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem; }
+    .colorFondo .enlacesSuperioresMob:hover {
       color: #D0D1FF; }
   .colorFondo .enlacesInternos {
     color: #DEAAFF; }
     .colorFondo .enlacesInternos:hover {
       color: #C0FDFF; }
   .colorFondo .imgProd-Index {
-    width: 75%;
-    height: auto;
-    align-content: center; }
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: auto; }
   .colorFondo .imgEven-index {
     width: 58%;
     height: auto; }

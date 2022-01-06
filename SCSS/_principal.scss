@@ -44,21 +44,21 @@
 	}
 	.textoInfoPeq{
 		font-size: 0.5rem;
-		.ListaInfo{
-			text-decoration: none;
-			}
+	}
+	.enlacesSuperiores{
+		font-size: 2em;
 	}
 	.textoCuerpoMob{
 		color: map-get($ColoresFonts, LContGral);
-		font-size: 1.2rem;
+		font-size: 0.7rem;
 		}
 }
 .bannerUno{
 	@include bannerIndex;
 	.tituloPag{
-		line-height: 7em;
-		font-size: 5vw;
-		color: map-get($ColoresFonts, LetraBase);
+		line-height: 6em;
+		font-size: 7vw;
+		color: #FFF;
 	}
 }
 .bannerDos{
@@ -112,16 +112,20 @@
 	}
 	.textoCuerpoDesk{
 		color: map-get($ColoresFonts, LContGral);
-		font-size: 2rem;
+		font-size: 1.7rem;
+	}
+	.textoInfoDesk{
+		color: map-get($ColoresFonts, LContGral);
+		font-size: 1.2rem;
+	}
+	.textoInfoPeq{
+		color: map-get($ColoresFonts, InfoPeq);
 		}
-		.textoInfoPeq{
-			color: map-get($ColoresFonts, InfoPeq);
-			}
-		.imagenPeq{
-			width: 10rem;
-			height: auto;
-			position: center;
-		}
+	.imagenPeq{
+		width: 10rem;
+		height: auto;
+		position: center;
+	}
 	.UpperSubTitle{
 		color: #D0D1FF;
 	}
@@ -129,11 +133,20 @@
 		color: #FFEBFA;
 		font-weight: bold;
 	}
-	.enlacesSuperiores{
+	.enlacesSuperioresDesk{
 		color: map-get($ColoresFonts, EnlaceSup);
 		text-decoration: none;
 		font-weight: bold;
-		font-size: 3vw;
+		font-size: 2.3rem;
+		&:hover{
+			color: map-get($ColoresFonts, EnlaceSup-hover);
+		}
+	}
+	.enlacesSuperioresMob{
+		color: map-get($ColoresFonts, EnlaceSup);
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1rem;
 		&:hover{
 			color: map-get($ColoresFonts, EnlaceSup-hover);
 		}
@@ -145,9 +158,10 @@
 		}
 	}
 	.imgProd-Index{
-		width: 75%;
+		display: block;
+		margin: auto;
+		width: 65%;
 		height: auto;
-		align-content: center;
 	}
 	.imgEven-index{
 		width: 58%;
