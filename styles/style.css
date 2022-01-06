@@ -103,7 +103,7 @@
       color: #DEAAFF; }
   .colorFondo .textoCuerpo {
     color: #FFCBF2;
-    font-size: 2.5vw; }
+    font-size: 2vw; }
   .colorFondo .textoInfoPeq {
     color: #C2C3FF; }
   .colorFondo .imagenPeq {
@@ -118,7 +118,8 @@
   .colorFondo .enlacesSuperiores {
     color: #C0FDFF;
     text-decoration: none;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 2.5vw; }
     .colorFondo .enlacesSuperiores:hover {
       color: #D0D1FF; }
   .colorFondo .ListaInfo {
@@ -132,7 +133,7 @@
     width: 70%;
     height: auto; }
   .colorFondo .imgEven-index {
-    width: 57%;
+    width: 100%;
     height: auto; }
   .colorFondo .imgProd {
     display: block;

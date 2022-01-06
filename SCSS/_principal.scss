@@ -102,7 +102,7 @@
 	}
 	.textoCuerpo{
 		color: map-get($ColoresFonts, LContGral);
-		font-size: 2.5vw;
+		font-size: 2vw;
 		}
 		.textoInfoPeq{
 			color: map-get($ColoresFonts, InfoPeq);
@@ -123,6 +123,7 @@
 		color: map-get($ColoresFonts, EnlaceSup);
 		text-decoration: none;
 		font-weight: bold;
+		font-size: 2.5vw;
 		&:hover{
 			color: map-get($ColoresFonts, EnlaceSup-hover);
 		}
@@ -142,7 +143,7 @@
 		height: auto;
 	}
 	.imgEven-index{
-		width: 57%;
+		width: 100%;
 		height: auto;
 	}
 	.imgProd{
