@@ -23,30 +23,40 @@
 		line-height: 4rem;
 	}
 	.bannerUno{
-		height: 100px;
+		height: 150px;
 		background-position: inherit;
 	}
 	.bannerDos{
-		height: 100px;
+		height: 150px;
 		background-position: inherit;
 	}
 	.bannerTres{
-		height: 100px;
+		height: 150px;
 		background-position: inherit;
 	}
 	.bannerCuatro{
-		height: 100px;
+		height: 150px;
 		background-position: inherit;
 	}
 	.bannerCinco{
-		height: 100px;
+		height: 150px;
 		background-position: inherit;
 	}
+	.textoInfoPeq{
+		font-size: 0.5rem;
+		.ListaInfo{
+			text-decoration: none;
+			}
+	}
+	.textoCuerpoMob{
+		color: map-get($ColoresFonts, LContGral);
+		font-size: 1.2rem;
+		}
 }
 .bannerUno{
 	@include bannerIndex;
 	.tituloPag{
-		line-height: 5em;
+		line-height: 7em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
@@ -54,7 +64,7 @@
 .bannerDos{
 	@include bannerEventos;
 	.tituloPag{
-		line-height: 5em;
+		line-height: 7em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
@@ -62,7 +72,7 @@
 .bannerTres{
 	@include bannerProductos;
 	.tituloPag{
-		line-height: 5em;
+		line-height: 7em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
@@ -70,7 +80,7 @@
 .bannerCuatro{
 	@include bannerZonagaming;
 	.tituloPag{
-		line-height: 5em;
+		line-height: 7em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
@@ -78,7 +88,7 @@
 .bannerCinco{
 	@include bannerContacto;
 	.tituloPag{
-		line-height: 5em;
+		line-height: 7em;
 		font-size: 5vw;
 		color: map-get($ColoresFonts, LetraBase);
 	}
@@ -100,8 +110,9 @@
 			}
 		}
 	}
-	.textoCuerpo{
+	.textoCuerpoDesk{
 		color: map-get($ColoresFonts, LContGral);
+		font-size: 2rem;
 		}
 		.textoInfoPeq{
 			color: map-get($ColoresFonts, InfoPeq);
@@ -127,10 +138,6 @@
 			color: map-get($ColoresFonts, EnlaceSup-hover);
 		}
 	}
-	.ListaInfo{
-		text-decoration: none;
-		color: map-get($ColoresFonts, InfoPeq);
-	}
 	.enlacesInternos{
 		color: map-get($ColoresFonts, EnlaceInter);
 		&:hover{
@@ -138,8 +145,9 @@
 		}
 	}
 	.imgProd-Index{
-		width: 100%;
+		width: 75%;
 		height: auto;
+		align-content: center;
 	}
 	.imgEven-index{
 		width: 58%;
