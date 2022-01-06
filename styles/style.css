@@ -7,7 +7,7 @@
     display: none; }
   #dropdownMenuButton1 {
     background-color: #C8E7FF;
-    color: #C8E7FF; }
+    color: #000; }
     #dropdownMenuButton1 .dropdown-menu.dropdown-item {
       color: #6d6875; }
   iframe {
@@ -36,7 +36,6 @@
   background-size: cover;
   width: 100%;
   opacity: 0.7;
-  background-attachment: fixed;
   background-repeat: no-repeat; }
   .bannerUno .tituloPag {
     line-height: 5em;
