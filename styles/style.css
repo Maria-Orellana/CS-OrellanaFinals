@@ -71,12 +71,23 @@
   background-size: cover;
   width: 100%;
   opacity: 0.7;
-  background-attachment: fixed;
   background-repeat: no-repeat; }
   .bannerTres .tituloPag {
     line-height: 7em;
     font-size: 5vw;
-    color: #C8E7FF; }
+    color: #FFF; }
+
+.bannerTresMob {
+  background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/06/gaming-wallpaper-2006012050489.jpg);
+  background-size: cover;
+  width: 100%;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  .bannerTresMob .tituloPag {
+    line-height: 7em;
+    font-size: 5vw;
+    color: #FFF; }
 
 .bannerCuatro {
   background-image: url(https://i.pinimg.com/originals/f3/72/56/f37256b61802fb2c715a383c84a011a4.jpg);
@@ -87,8 +98,7 @@
   background-repeat: no-repeat; }
   .bannerCuatro .tituloPag {
     line-height: 7em;
-    font-size: 5vw;
-    color: #C8E7FF; }
+    font-size: 5vw; }
 
 .bannerCinco {
   background-image: url(https://wallpapercave.com/wp/wp2578580.jpg);
@@ -99,8 +109,7 @@
   background-repeat: no-repeat; }
   .bannerCinco .tituloPag {
     line-height: 7em;
-    font-size: 5vw;
-    color: #C8E7FF; }
+    font-size: 5vw; }
 
 .colorFondo {
   background-color: #001414; }
@@ -112,23 +121,38 @@
     .colorFondo .BarraNav div a:hover {
       font-size: 1.5rem;
       color: #ff5d8f; }
+  .colorFondo .tituloMed {
+    color: #DEAAFF;
+    font-weight: bold;
+    font-size: 2.2rem; }
+  .colorFondo .tituloMedMob {
+    color: #DEAAFF;
+    font-weight: bold;
+    font-size: 1.7rem; }
+  .colorFondo .tituloAside {
+    color: #f3ffbd;
+    font-weight: bold;
+    font-size: 1.2rem; }
+  .colorFondo .tituloAsideMob {
+    color: #f3ffbd;
+    font-weight: bold;
+    font-size: 1rem; }
+  .colorFondo .letraCont {
+    font-size: 1.2rem; }
+  .colorFondo .letraContMob {
+    font-size: 0.8rem; }
+  .colorFondo .colorTituloinfo {
+    color: #e8c2ca; }
   .colorFondo .colorLetraInfo {
     color: #FFF; }
   .colorFondo .colorLetraCont {
     color: #ffc8dd; }
-  .colorFondo .textoCuerpoDesk {
-    font-size: 1.7rem; }
   .colorFondo .textoInfoDesk {
     font-size: 1.2rem; }
   .colorFondo .imagenPeq {
     width: 10rem;
     height: auto;
     position: center; }
-  .colorFondo .UpperSubTitle {
-    color: #D0D1FF; }
-  .colorFondo .TitulosEvent {
-    color: #FFEBFA;
-    font-weight: bold; }
   .colorFondo .enlacesSuperioresDesk {
     color: #DEAAFF;
     text-decoration: none;
@@ -157,6 +181,9 @@
     height: auto; }
   .colorFondo .imgEven-indexMob {
     width: 95%;
+    height: auto; }
+  .colorFondo .imgEvenParalelas {
+    width: 50%;
     height: auto; }
   .colorFondo .imgProd {
     display: block;

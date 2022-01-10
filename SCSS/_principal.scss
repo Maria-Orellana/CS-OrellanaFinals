@@ -65,11 +65,19 @@
 	}
 }
 .bannerTres{
+	@include bannerProductosMob;
+	.tituloPag{
+		line-height: 7em;
+		font-size: 5vw;
+		color: #FFF;
+	}
+}
+.bannerTresMob{
 	@include bannerProductos;
 	.tituloPag{
 		line-height: 7em;
 		font-size: 5vw;
-		color: map-get($ColoresFonts, LetraBase);
+		color: #FFF;
 	}
 }
 .bannerCuatro{
@@ -104,14 +112,40 @@
 			}
 		}
 	}
+	.tituloMed{
+		color: map-get($ColoresFonts, EnlaceSup);
+		font-weight: bold;
+		font-size: 2.2rem;
+	}
+	.tituloMedMob{
+		color: map-get($ColoresFonts, EnlaceSup);
+		font-weight: bold;
+		font-size: 1.7rem;
+	}
+	.tituloAside{
+		color: map-get($ColoresFonts, colorTituloMed);
+		font-weight: bold;
+		font-size: 1.2rem;
+	}
+	.tituloAsideMob{
+		color: map-get($ColoresFonts, colorTituloMed);
+		font-weight: bold;
+		font-size: 1rem;
+	}
+	.letraCont{
+		font-size: 1.2rem;
+	}
+	.letraContMob{
+		font-size: 0.8rem;
+	}
+	.colorTituloinfo{
+		color: #e8c2ca;
+	}
 	.colorLetraInfo{
 		color: map-get($ColoresFonts, InfoPeq);
 	}
 	.colorLetraCont{
 		color: map-get($ColoresFonts, LetraCont);
-	}
-	.textoCuerpoDesk{
-		font-size: 1.7rem;
 	}
 	.textoInfoDesk{
 		font-size: 1.2rem;
@@ -120,13 +154,6 @@
 		width: 10rem;
 		height: auto;
 		position: center;
-	}
-	.UpperSubTitle{
-		color: #D0D1FF;
-	}
-	.TitulosEvent{
-		color: #FFEBFA;
-		font-weight: bold;
 	}
 	.enlacesSuperioresDesk{
 		color: map-get($ColoresFonts, EnlaceSup);
@@ -164,6 +191,10 @@
 	}
 	.imgEven-indexMob{
 		width: 95%;
+		height: auto;
+	}
+	.imgEvenParalelas{
+		width: 50%;
 		height: auto;
 	}
 	.imgProd{
