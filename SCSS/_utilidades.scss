@@ -3,8 +3,9 @@
 }
 @mixin bannerIndex{
 	background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
-	background-size: cover;
 	opacity: 0.7;
+	width: cover;
+	height: 420px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
@@ -12,6 +13,7 @@
 	background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
 	background-size: cover;
 	opacity: 0.7;
+	width: 100%;
 	background-repeat: no-repeat;
 }
 @mixin bannerEventos{
@@ -65,6 +67,13 @@
 	width: 100%;
 	opacity: 0.7;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+@mixin bannerContactoMob{
+	background-image: url(https://wallpapercave.com/wp/wp2578580.jpg);
+	background-size: cover;
+	width: 100%;
+	opacity: 0.7;
 	background-repeat: no-repeat;
 }
 $ColoresFonts:(InfoPeq: #FFF, EnlaceNav:#000, EnlaceNav-hover:#ff5d8f, EnlaceSup: #DEAAFF, EnlaceSup-hover: #bde0fe, EnlaceInter: #C0FDFF, EnlaceInter-hover: #DEAAFF, LetraCont: #ffc8dd, colorTituloMed:#f3ffbd, LetraFooter: #FFF);

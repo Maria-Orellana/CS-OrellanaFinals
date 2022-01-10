@@ -35,7 +35,7 @@
 .bannerUnoDesk{
 	@include bannerIndex;
 	.tituloPag{
-		line-height: 6em;
+		line-height: 22rem;
 		font-size: 7vw;
 		color: #FFF;
 	}
@@ -101,7 +101,15 @@
 	.tituloPag{
 		line-height: 7em;
 		font-size: 5vw;
-		color: map-get($ColoresFonts, LetraBase);
+		color: #FFF;
+	}
+}
+.bannerCincoMob{
+	@include bannerContactoMob;
+	.tituloPag{
+		line-height: 7em;
+		font-size: 5vw;
+		color: #FFF;
 	}
 }
 .colorFondo{
