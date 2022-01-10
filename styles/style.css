@@ -15,37 +15,30 @@
     height: 170px; }
   .tituloPag {
     line-height: 4rem; }
-  .bannerUno {
-    height: 150px;
-    background-position: inherit; }
-  .bannerDos {
-    height: 150px;
-    background-position: inherit; }
-  .bannerTres {
-    height: 150px;
-    background-position: inherit; }
-  .bannerCuatro {
-    height: 150px;
-    background-position: inherit; }
-  .bannerCinco {
-    height: 150px;
-    background-position: inherit; }
   .textoInfoPeq {
     font-size: 0.5rem; }
   .enlacesSuperiores {
     font-size: 2em; }
   .textoCuerpoMob {
-    color: #FFCBF2;
     font-size: 0.7rem; } }
 
-.bannerUno {
+.bannerUnoDesk {
   background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
   background-size: cover;
-  width: 100%;
   opacity: 0.7;
   background-attachment: fixed;
   background-repeat: no-repeat; }
-  .bannerUno .tituloPag {
+  .bannerUnoDesk .tituloPag {
+    line-height: 6em;
+    font-size: 7vw;
+    color: #FFF; }
+
+.bannerUnoMob {
+  background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
+  background-size: cover;
+  opacity: 0.7;
+  background-repeat: no-repeat; }
+  .bannerUnoMob .tituloPag {
     line-height: 6em;
     font-size: 7vw;
     color: #FFF; }
@@ -58,9 +51,20 @@
   background-attachment: fixed;
   background-repeat: no-repeat; }
   .bannerDos .tituloPag {
-    line-height: 7em;
+    line-height: 6em;
     font-size: 5vw;
-    color: #C8E7FF; }
+    color: #FFF; }
+
+.bannerDosMob {
+  background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/bb54cad314a2d6f14c7d1b63b8269470-scaled.jpg);
+  background-size: cover;
+  width: 100%;
+  opacity: 0.7;
+  background-repeat: no-repeat; }
+  .bannerDosMob .tituloPag {
+    line-height: 6em;
+    font-size: 5vw;
+    color: #FFF; }
 
 .bannerTres {
   background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/06/gaming-wallpaper-2006012050489.jpg);
@@ -99,24 +103,23 @@
     color: #C8E7FF; }
 
 .colorFondo {
-  /*background: linear-gradient(to bottom, #001414, #FFF);*/
   background-color: #001414; }
   .colorFondo .BarraNav div a {
-    color: #001414;
+    color: #000;
     transition-property: font-size;
     transition-timing-function: ease-in-out;
     transition-duration: 500ms; }
     .colorFondo .BarraNav div a:hover {
       font-size: 1.5rem;
-      color: #DEAAFF; }
+      color: #ff5d8f; }
+  .colorFondo .colorLetraInfo {
+    color: #FFF; }
+  .colorFondo .colorLetraCont {
+    color: #ffc8dd; }
   .colorFondo .textoCuerpoDesk {
-    color: #FFCBF2;
     font-size: 1.7rem; }
   .colorFondo .textoInfoDesk {
-    color: #FFCBF2;
     font-size: 1.2rem; }
-  .colorFondo .textoInfoPeq {
-    color: #C2C3FF; }
   .colorFondo .imagenPeq {
     width: 10rem;
     height: auto;
@@ -127,23 +130,23 @@
     color: #FFEBFA;
     font-weight: bold; }
   .colorFondo .enlacesSuperioresDesk {
-    color: #C0FDFF;
+    color: #DEAAFF;
     text-decoration: none;
     font-weight: bold;
     font-size: 2.3rem; }
     .colorFondo .enlacesSuperioresDesk:hover {
-      color: #D0D1FF; }
+      color: #bde0fe; }
   .colorFondo .enlacesSuperioresMob {
-    color: #C0FDFF;
+    color: #DEAAFF;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem; }
     .colorFondo .enlacesSuperioresMob:hover {
-      color: #D0D1FF; }
+      color: #bde0fe; }
   .colorFondo .enlacesInternos {
-    color: #DEAAFF; }
+    color: #C0FDFF; }
     .colorFondo .enlacesInternos:hover {
-      color: #C0FDFF; }
+      color: #DEAAFF; }
   .colorFondo .imgProd-Index {
     display: block;
     margin: auto;
@@ -172,7 +175,6 @@
     display: block;
     margin: auto; }
   .colorFondo .formulario {
-    color: #FFCBF2;
     padding-bottom: 5rem; }
   .colorFondo .ImgContPrincEventos {
     display: block;
@@ -182,8 +184,7 @@
 
 /*Estilo de footer*/
 .edicionFooter {
-  background: linear-gradient(180deg, #001414 0%, white 100%);
-  color: #e2ece9; }
+  background: linear-gradient(180deg, #001414 0%, white 100%); }
   .edicionFooter ul li {
     list-style: none;
     text-decoration: none; }
@@ -191,10 +192,12 @@
     height: 18px;
     width: 18px; }
   .edicionFooter a {
-    color: #DEAAFF;
+    color: #C0FDFF;
     text-decoration: none; }
     .edicionFooter a:hover {
-      color: #C0FDFF; }
+      color: #DEAAFF; }
+  .edicionFooter .letraFooter {
+    color: #FFF; }
   .edicionFooter .TransFooter input[type=text] {
     width: 100px;
     transition: width .35s ease-in-out; }

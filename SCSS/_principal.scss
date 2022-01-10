@@ -22,26 +22,6 @@
 	.tituloPag{
 		line-height: 4rem;
 	}
-	.bannerUno{
-		height: 150px;
-		background-position: inherit;
-	}
-	.bannerDos{
-		height: 150px;
-		background-position: inherit;
-	}
-	.bannerTres{
-		height: 150px;
-		background-position: inherit;
-	}
-	.bannerCuatro{
-		height: 150px;
-		background-position: inherit;
-	}
-	.bannerCinco{
-		height: 150px;
-		background-position: inherit;
-	}
 	.textoInfoPeq{
 		font-size: 0.5rem;
 	}
@@ -49,12 +29,19 @@
 		font-size: 2em;
 	}
 	.textoCuerpoMob{
-		color: map-get($ColoresFonts, LContGral);
 		font-size: 0.7rem;
 		}
 }
-.bannerUno{
+.bannerUnoDesk{
 	@include bannerIndex;
+	.tituloPag{
+		line-height: 6em;
+		font-size: 7vw;
+		color: #FFF;
+	}
+}
+.bannerUnoMob{
+	@include bannerIndexMob;
 	.tituloPag{
 		line-height: 6em;
 		font-size: 7vw;
@@ -64,9 +51,17 @@
 .bannerDos{
 	@include bannerEventos;
 	.tituloPag{
-		line-height: 7em;
+		line-height: 6em;
 		font-size: 5vw;
-		color: map-get($ColoresFonts, LetraBase);
+		color: #FFF;
+	}
+}
+.bannerDosMob{
+	@include bannerEventosMob;
+	.tituloPag{
+		line-height: 6em;
+		font-size: 5vw;
+		color: #FFF;
 	}
 }
 .bannerTres{
@@ -94,7 +89,6 @@
 	}
 }
 .colorFondo{
-	/*background: linear-gradient(to bottom, #001414, #FFF);*/
 	background-color: #001414;
 	.BarraNav{
 		& div{
@@ -110,17 +104,18 @@
 			}
 		}
 	}
+	.colorLetraInfo{
+		color: map-get($ColoresFonts, InfoPeq);
+	}
+	.colorLetraCont{
+		color: map-get($ColoresFonts, LetraCont);
+	}
 	.textoCuerpoDesk{
-		color: map-get($ColoresFonts, LContGral);
 		font-size: 1.7rem;
 	}
 	.textoInfoDesk{
-		color: map-get($ColoresFonts, LContGral);
 		font-size: 1.2rem;
 	}
-	.textoInfoPeq{
-		color: map-get($ColoresFonts, InfoPeq);
-		}
 	.imagenPeq{
 		width: 10rem;
 		height: auto;
@@ -204,7 +199,6 @@
 /*Estilo de footer*/
 .edicionFooter {
 		background: linear-gradient(180deg, hsla(180, 100%, 4%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-		color: map-get($ColoresFonts, LetraAuxiliar);
 		ul li{
 			list-style: none;
 			text-decoration: none;
@@ -219,6 +213,9 @@
 			&:hover{
 				color: map-get($ColoresFonts, EnlaceInter-hover);
 			}
+		}
+		.letraFooter{
+			color: map-get($ColoresFonts, LetraFooter);
 		}
 		.TransFooter input[type=text]{
 			width: 100px;
