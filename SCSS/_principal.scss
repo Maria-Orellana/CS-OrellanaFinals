@@ -65,7 +65,7 @@
 	}
 }
 .bannerTres{
-	@include bannerProductosMob;
+	@include bannerProductos;
 	.tituloPag{
 		line-height: 6em;
 		font-size: 5vw;
@@ -73,7 +73,7 @@
 	}
 }
 .bannerTresMob{
-	@include bannerProductos;
+	@include bannerProductosMob;
 	.tituloPag{
 		line-height: 6em;
 		font-size: 5vw;
