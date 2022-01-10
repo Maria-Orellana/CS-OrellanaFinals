@@ -67,7 +67,7 @@
 .bannerTres{
 	@include bannerProductosMob;
 	.tituloPag{
-		line-height: 7em;
+		line-height: 6em;
 		font-size: 5vw;
 		color: #FFF;
 	}
@@ -75,7 +75,7 @@
 .bannerTresMob{
 	@include bannerProductos;
 	.tituloPag{
-		line-height: 7em;
+		line-height: 6em;
 		font-size: 5vw;
 		color: #FFF;
 	}
@@ -83,9 +83,17 @@
 .bannerCuatro{
 	@include bannerZonagaming;
 	.tituloPag{
-		line-height: 7em;
+		line-height: 6em;
 		font-size: 5vw;
-		color: map-get($ColoresFonts, LetraBase);
+		color: #FFF;
+	}
+}
+.bannerCuatroMob{
+	@include bannerZonagamingMob;
+	.tituloPag{
+		line-height: 6em;
+		font-size: 5vw;
+		color: #FFF;
 	}
 }
 .bannerCinco{
@@ -153,8 +161,7 @@
 	.imagenPeq{
 		width: 10rem;
 		height: auto;
-		position: center;
-	}
+	}		
 	.enlacesSuperioresDesk{
 		color: map-get($ColoresFonts, EnlaceSup);
 		text-decoration: none;

@@ -73,7 +73,7 @@
   opacity: 0.7;
   background-repeat: no-repeat; }
   .bannerTres .tituloPag {
-    line-height: 7em;
+    line-height: 6em;
     font-size: 5vw;
     color: #FFF; }
 
@@ -85,7 +85,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat; }
   .bannerTresMob .tituloPag {
-    line-height: 7em;
+    line-height: 6em;
     font-size: 5vw;
     color: #FFF; }
 
@@ -97,8 +97,20 @@
   background-attachment: fixed;
   background-repeat: no-repeat; }
   .bannerCuatro .tituloPag {
-    line-height: 7em;
-    font-size: 5vw; }
+    line-height: 6em;
+    font-size: 5vw;
+    color: #FFF; }
+
+.bannerCuatroMob {
+  background-image: url(https://i.pinimg.com/originals/f3/72/56/f37256b61802fb2c715a383c84a011a4.jpg);
+  background-size: cover;
+  width: 100%;
+  opacity: 0.7;
+  background-repeat: no-repeat; }
+  .bannerCuatroMob .tituloPag {
+    line-height: 6em;
+    font-size: 5vw;
+    color: #FFF; }
 
 .bannerCinco {
   background-image: url(https://wallpapercave.com/wp/wp2578580.jpg);
@@ -151,8 +163,7 @@
     font-size: 1.2rem; }
   .colorFondo .imagenPeq {
     width: 10rem;
-    height: auto;
-    position: center; }
+    height: auto; }
   .colorFondo .enlacesSuperioresDesk {
     color: #DEAAFF;
     text-decoration: none;
