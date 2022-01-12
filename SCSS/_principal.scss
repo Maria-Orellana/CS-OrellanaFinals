@@ -38,7 +38,7 @@ body{
 .bannerUnoDesk{
 	@include bannerIndex;
 	.tituloPag{
-		line-height: 22rem;
+		line-height: 35rem;
 		font-size: 7vw;
 		color: #FFF;
 	}
@@ -54,8 +54,8 @@ body{
 .bannerDos{
 	@include bannerEventos;
 	.tituloPag{
-		line-height: 6em;
-		font-size: 5vw;
+		line-height: 35rem;
+		font-size: 7vw;
 		color: #FFF;
 	}
 }
@@ -70,8 +70,8 @@ body{
 .bannerTres{
 	@include bannerProductos;
 	.tituloPag{
-		line-height: 6em;
-		font-size: 5vw;
+		line-height: 35rem;
+		font-size: 7vw;
 		color: #FFF;
 	}
 }
@@ -86,8 +86,8 @@ body{
 .bannerCuatro{
 	@include bannerZonagaming;
 	.tituloPag{
-		line-height: 6em;
-		font-size: 5vw;
+		line-height: 35rem;
+		font-size: 7vw;
 		color: #FFF;
 	}
 }
@@ -102,8 +102,8 @@ body{
 .bannerCinco{
 	@include bannerContacto;
 	.tituloPag{
-		line-height: 7em;
-		font-size: 5vw;
+		line-height: 35rem;
+		font-size: 7vw;
 		color: #FFF;
 	}
 }
