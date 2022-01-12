@@ -4,8 +4,7 @@
 @mixin bannerIndex{
 	background-image: url(https://redsale.cl/wp-content/uploads/2021/06/cosplay.jpeg);
 	opacity: 0.7;
-	width: cover;
-	height: 420px;
+	width: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }

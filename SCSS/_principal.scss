@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	overflow-x: hidden;
+}
 @media all and (max-width: 767px){
 	.desktopOnly{
 	display: none;
@@ -169,6 +172,13 @@
 	.imagenPeq{
 		width: 10rem;
 		height: auto;
+	}
+	.imagenPeqDesk{
+		display: block;
+		margin-left:auto;
+		margin-right: auto;
+		width: 10rem;
+		justify-content: center;
 	}		
 	.enlacesSuperioresDesk{
 		color: map-get($ColoresFonts, EnlaceSup);
